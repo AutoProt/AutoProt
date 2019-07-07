@@ -1,0 +1,8 @@
+D:\Version-012\MStats\MStats\obj\x86\Release\Interop.MSFileReaderLib.dll
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.csproj.ResolveComReference.cache
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.Form1.resources
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.Properties.Resources.resources
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.UsrCtrlFullMS.resources
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.Analysis.Control.Morpheus.resources
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.csproj.GenerateResource.Cache
+D:\Version-012\MStats\MStats\obj\x86\Release\MStats.csproj.CoreCompileInputs.cache
