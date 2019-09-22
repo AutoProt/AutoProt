@@ -1,0 +1,24 @@
+2019-07-31 12:49:23.066 +02:00 [INF] Program started with arguments: parse -x -f D:\CK-Work\rawfile\20150410_QE3_UPLC9_ChKe_SA_46fractions_Rep1_44.raw
+2019-07-31 12:49:23.559 +02:00 [INF] Files to be processed, provided as list: D:\CK-Work\rawfile\20150410_QE3_UPLC9_ChKe_SA_46fractions_Rep1_44.raw
+2019-07-31 12:49:23.630 +02:00 [INF] Extracting scan indices
+2019-07-31 12:49:25.493 +02:00 [INF] Extracting scan events
+2019-07-31 12:49:25.531 +02:00 [INF] Extracting method/instrument information
+2019-07-31 12:49:52.379 +02:00 [INF] Extracting trailer extras
+2019-07-31 12:49:52.657 +02:00 [INF] Extracting precursor masses
+2019-07-31 12:49:52.747 +02:00 [INF] Extracting retention times
+2019-07-31 12:57:52.234 +02:00 [INF] Program started with arguments: parse -x -f D:\CK-Work\temp2\20150410_QE3_UPLC9_ChKe_SA_46fractions_Rep1_44.raw
+2019-07-31 12:57:52.696 +02:00 [INF] Files to be processed, provided as list: D:\CK-Work\temp2\20150410_QE3_UPLC9_ChKe_SA_46fractions_Rep1_44.raw
+2019-07-31 12:57:52.766 +02:00 [INF] Extracting scan indices
+2019-07-31 12:57:54.523 +02:00 [INF] Extracting scan events
+2019-07-31 12:57:54.560 +02:00 [INF] Extracting method/instrument information
+2019-07-31 12:57:56.215 +02:00 [INF] Extracting trailer extras
+2019-07-31 12:57:56.304 +02:00 [INF] Extracting precursor masses
+2019-07-31 12:57:56.367 +02:00 [INF] Extracting retention times
+2019-07-31 13:03:03.876 +02:00 [INF] Program started with arguments: parse -x -f D:\\20150410_QE3_UPLC9_ChKe_SA_46fractions_Rep1_44.raw
+2019-07-31 13:03:06.456 +02:00 [INF] Files to be processed, provided as list: D:\\20150410_QE3_UPLC9_ChKe_SA_46fractions_Rep1_44.raw
+2019-07-31 13:03:06.522 +02:00 [INF] Extracting scan indices
+2019-07-31 13:03:08.212 +02:00 [INF] Extracting scan events
+2019-07-31 13:03:08.249 +02:00 [INF] Extracting method/instrument information
+2019-07-31 13:03:09.904 +02:00 [INF] Extracting trailer extras
+2019-07-31 13:03:09.989 +02:00 [INF] Extracting precursor masses
+2019-07-31 13:03:10.051 +02:00 [INF] Extracting retention times

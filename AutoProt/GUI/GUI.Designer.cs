@@ -406,7 +406,6 @@
             this.tabControl1.Controls.Add(this.Debug);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1165, 669);
             this.tabControl1.TabIndex = 0;
             // 
@@ -437,7 +436,6 @@
             this.tabControl3.Controls.Add(this.External);
             this.tabControl3.Location = new System.Drawing.Point(258, 52);
             this.tabControl3.Name = "tabControl3";
-            this.tabControl3.SelectedIndex = 0;
             this.tabControl3.Size = new System.Drawing.Size(894, 576);
             this.tabControl3.TabIndex = 16;
             // 

@@ -1,0 +1,2192 @@
+[
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Default",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "D:\\CK-Work\\fasta\\UP000005640_9606.fasta",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Human XML",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\XML\\HUMAN.xml",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "DIA",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\XML\\HUMAN.xml",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 5.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": false,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 5.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 10.0,
+    "productMassTolerance": {
+      "Value": 10.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      },
+      {
+        "Description": "TMT sixplex/tenplex on peptide N-terminus",
+        "Type": 3,
+        "AminoAcid": "\u0000",
+        "MonoisotopicMassShift": 229.1629321568,
+        "AverageMassShift": 229.2634282496,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": false,
+        "Known": false
+      },
+      {
+        "Description": "TMT sixplex/tenplex on K",
+        "Type": 0,
+        "AminoAcid": "K",
+        "MonoisotopicMassShift": 229.1629321568,
+        "AverageMassShift": 229.2634282496,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Human TMT",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\XML\\HUMAN.xml",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      },
+      {
+        "Description": "TMT sixplex/tenplex on peptide N-terminus",
+        "Type": 3,
+        "AminoAcid": "\u0000",
+        "MonoisotopicMassShift": 229.1629321568,
+        "AverageMassShift": 229.2634282496,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": false,
+        "Known": false
+      },
+      {
+        "Description": "TMT sixplex/tenplex on K",
+        "Type": 0,
+        "AminoAcid": "K",
+        "MonoisotopicMassShift": 229.1629321568,
+        "AverageMassShift": 229.2634282496,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Rat TMT",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\UP_2018_02\\Mouse\\UP000000589_10090.fasta",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": false,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Rat",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\UP_2018_02\\Mouse\\UP000000589_10090.fasta",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      },
+      {
+        "Description": "TMT sixplex/tenplex on peptide N-terminus",
+        "Type": 3,
+        "AminoAcid": "\u0000",
+        "MonoisotopicMassShift": 229.1629321568,
+        "AverageMassShift": 229.2634282496,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": false,
+        "Known": false
+      },
+      {
+        "Description": "TMT sixplex/tenplex on K",
+        "Type": 0,
+        "AminoAcid": "K",
+        "MonoisotopicMassShift": 229.1629321568,
+        "AverageMassShift": 229.2634282496,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Mouse TMT",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\UP_2018_02\\Mouse\\UP000000589_10090.fasta",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Mouse",
+    "CurrentProtease": {
+      "Name": "trypsin (no proline rule)",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "K",
+        "R"
+      ],
+      "Cut": "KR",
+      "SequencesPreventingCleavage": [],
+      "NoCut": "",
+      "CleavageSpecificity": 4
+    },
+    "protease": 12,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\UP_2018_02\\Mouse\\UP000000589_10090.fasta",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  },
+  {
+    "fixedModifications": [
+      {
+        "Description": "carbamidomethylation of C",
+        "Type": 0,
+        "AminoAcid": "C",
+        "MonoisotopicMassShift": 57.02146373,
+        "AverageMassShift": 57.05132,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": true,
+        "DefaultVariable": false,
+        "Known": false
+      }
+    ],
+    "variableModifications": [
+      {
+        "Description": "oxidation of M",
+        "Type": 0,
+        "AminoAcid": "M",
+        "MonoisotopicMassShift": 15.99491463,
+        "AverageMassShift": 15.9994,
+        "MonoisotopicNeutralLossMass": 0.0,
+        "AverageNeutralLossMass": 0.0,
+        "DefaultFixed": false,
+        "DefaultVariable": true,
+        "Known": false
+      }
+    ],
+    "Adducts": [
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNH3",
+        "MzValue": 17.026549,
+        "Mass": "17.026549"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductNa",
+        "MzValue": 21.981943,
+        "Mass": "21.981943"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFA",
+        "MzValue": 32.026213,
+        "Mass": "32.026213"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductCa",
+        "MzValue": 37.946941,
+        "Mass": "37.946941"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductK",
+        "MzValue": 37.955882,
+        "Mass": "37.955882"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductACN",
+        "MzValue": 41.026547,
+        "Mass": "41.026547"
+      },
+      {
+        "ReadOnly": true,
+        "Enabled": true,
+        "Name": "AdductFe",
+        "MzValue": 52.911464,
+        "Mass": "52.911464"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct1",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct2",
+        "MzValue": 0.0,
+        "Mass": "0"
+      },
+      {
+        "ReadOnly": false,
+        "Enabled": false,
+        "Name": "Adduct3",
+        "MzValue": 0.0,
+        "Mass": "0"
+      }
+    ],
+    "Polymers": [
+      {
+        "Name": "Polymer1",
+        "Mz0": "327.20135",
+        "Z0": "1",
+        "Mz1": "371.227565",
+        "Z1": "1",
+        "Mz2": "459.279995",
+        "Z2": "1",
+        "Mz3": "591.35864",
+        "Z3": "1",
+        "Mz4": "767.4635",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer2",
+        "Mz0": "309.24242",
+        "Z0": "1",
+        "Mz1": "353.268635",
+        "Z1": "1",
+        "Mz2": "441.321065",
+        "Z2": "1",
+        "Mz3": "573.39971",
+        "Z3": "1",
+        "Mz4": "749.50457",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer3",
+        "Mz0": "339.25299",
+        "Z0": "1",
+        "Mz1": "383.279205",
+        "Z1": "1",
+        "Mz2": "471.331635",
+        "Z2": "1",
+        "Mz3": "603.41028",
+        "Z3": "1",
+        "Mz4": "779.51514",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer4",
+        "Mz0": "381.29753",
+        "Z0": "1",
+        "Mz1": "425.323745",
+        "Z1": "1",
+        "Mz2": "513.376175",
+        "Z2": "1",
+        "Mz3": "645.45482",
+        "Z3": "1",
+        "Mz4": "821.55968",
+        "Z4": "1"
+      },
+      {
+        "Name": "Polymer5",
+        "Mz0": "367.28188",
+        "Z0": "1",
+        "Mz1": "411.308095",
+        "Z1": "1",
+        "Mz2": "499.360525",
+        "Z2": "1",
+        "Mz3": "631.43917",
+        "Z3": "1",
+        "Mz4": "807.54403",
+        "Z4": "1"
+      }
+    ],
+    "Name": "Chymotrypsin",
+    "CurrentProtease": {
+      "Name": "chymotrypsin",
+      "CleavageTerminus": 2,
+      "Sense": "C",
+      "SequencesInducingCleavage": [
+        "F",
+        "W",
+        "Y"
+      ],
+      "Cut": "FWY",
+      "SequencesPreventingCleavage": [
+        "P"
+      ],
+      "NoCut": "P",
+      "CleavageSpecificity": 4
+    },
+    "protease": 2,
+    "initiatorMethionineBehavior": 2,
+    "initiatorMethionine": 2,
+    "precursorMassToleranceUnitsIndex": 1,
+    "productMassToleranceUnitsIndex": 1,
+    "precursorMassTypeIndex": 0,
+    "productMassTypeIndex": 0,
+    "minimumAssumedPrecursorChargeState": 2,
+    "maximumAssumedPrecursorChargeState": 4,
+    "chkAbsoluteThreshold": false,
+    "txtAbsoluteThreshold": "10",
+    "absoluteThreshold": 10.0,
+    "chkRelativeThreshold": false,
+    "txtRelativeThreshold": "1",
+    "relativeThresholdPercent": 1.0,
+    "chkMaxNumPeaks": true,
+    "maximumNumberOfPeaks": 400,
+    "assignChargeStates": true,
+    "deisotope": false,
+    "proteomeDatabaseFilepath": "C:\\Fasta\\XML\\HUMAN.xml",
+    "onTheFlyDecoys": true,
+    "maximumMissedCleavages": 2,
+    "maximumVariableModificationIsoforms": 1024,
+    "precursorMonoisotopicPeakCorrection": false,
+    "minimumPrecursorMonoisotopicPeakOffset": -3,
+    "maximumPrecursorMonoisotopicPeakOffset": 1,
+    "maximumFalseDiscoveryRatePercent": 1.0,
+    "baseMaxFluctuationsPercent": 0.2,
+    "maximumFalseDiscoveryRate": 0.01,
+    "considerModifiedFormsAsUniquePeptides": false,
+    "maximumThreads": 4,
+    "minimizeMemoryUsage": false,
+    "precursorMassToleranceValue": 7.0,
+    "StoNthreshold": 5.0,
+    "IonThreshold": 50000.0,
+    "UseMorpheusAnalysis": true,
+    "UseBaseAnalysis": true,
+    "UseExternal1Analysis": true,
+    "precursorMassTolerance": {
+      "Value": 7.0,
+      "Units": 1
+    },
+    "precursorMassType": 0,
+    "productMassToleranceValue": 15.0,
+    "productMassTolerance": {
+      "Value": 15.0,
+      "Units": 1
+    },
+    "productMassType": 0,
+    "BaseMassTolerance": 5.0,
+    "BasePolymerPercentile": 99.0,
+    "BaseAdductPercentile": 80.0
+  }
+]
